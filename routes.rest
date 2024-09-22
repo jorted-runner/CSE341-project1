@@ -1,0 +1,13 @@
+// LOCALHOST
+### Get all contats
+GET http://localhost:8080/contacts
+
+### Get contact by id
+GET http://localhost:8080/contacts/66ef7e0981c06cd9b3f082ca
+
+// PRODUCTION
+### Get all contats
+GET https://cse341-project1-ascp.onrender.com/contacts
+
+### Get contact by id
+GET https://cse341-project1-ascp.onrender.com/contacts/66ef7e0981c06cd9b3f082ca
