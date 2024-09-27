@@ -17,8 +17,8 @@ POST http://localhost:8080/contacts
 Content-Type: application/json
 
 {
-    "firstName": "Danny",
-    "lastName": "Ellis",
+    "firstName": "Test",
+    "lastName": "002",
     "email": "danny.ellis@example.com",
     "favoriteColor": "green",
     "birthday": "1992-04-16"

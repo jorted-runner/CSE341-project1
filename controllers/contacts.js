@@ -20,8 +20,17 @@ const getSingle = async (req, res) => {
     })
 }
 
+// Add a single contact
 const addContact = async (req, res) => {
-    console.log(req.body);
+    const newContact = {
+			firstName: req.body.firstName,
+			lastName: req.body.lastName,
+			email: req.body.email,
+			favoriteColor: req.body.favoriteColor,
+			birthday: req.body.birthday,
+    };
+    const result = await mongodb.getDatabase().db().collection('contacts').insertOne(newContact);
+    res.status(200).json("New Contact Added")
 };
 
 module.exports = { getAll, getSingle, addContact }
