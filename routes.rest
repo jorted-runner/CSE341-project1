@@ -11,3 +11,15 @@ GET https://cse341-project1-ascp.onrender.com/contacts
 
 ### Get contact by id
 GET https://cse341-project1-ascp.onrender.com/contacts/66ef7e0981c06cd9b3f082ca
+
+### Add a contact
+POST http://localhost:8080/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Danny",
+    "lastName": "Ellis",
+    "email": "danny.ellis@example.com",
+    "favoriteColor": "green",
+    "birthday": "1992-04-16"
+}

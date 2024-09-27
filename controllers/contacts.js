@@ -20,4 +20,8 @@ const getSingle = async (req, res) => {
     })
 }
 
-module.exports = { getAll, getSingle }
+const addContact = async (req, res) => {
+    console.log(req.body);
+};
+
+module.exports = { getAll, getSingle, addContact }
