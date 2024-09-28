@@ -5,11 +5,10 @@
     "description": "Contact Management API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-project1-ascp.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "http"
   ],
   "paths": {
     "/": {
@@ -148,7 +147,7 @@
     }
   },
   "schemas": [
-    "http",
-    "https"
+    "https",
+    "http"
   ]
 }
