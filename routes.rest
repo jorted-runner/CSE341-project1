@@ -23,3 +23,18 @@ Content-Type: application/json
     "favoriteColor": "green",
     "birthday": "1992-04-16"
 }
+
+### Update a contact
+PUT http://localhost:8080/contacts/66ef7e0981c06cd9b3f082ca
+Content-Type: application/json
+
+{
+    "firstName": "Test",
+    "lastName": "003",
+    "email": "danny.ellis@example.com",
+    "favoriteColor": "green",
+    "birthday": "1992-04-16"
+}
+
+### Get contact by id
+DELETE http://localhost:8080/contacts/66ef7e0981c06cd9b3f082ca
