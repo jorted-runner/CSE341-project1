@@ -18,7 +18,7 @@ Content-Type: application/json
 
 {
     "firstName": "Test",
-    "lastName": "002",
+    "lastName": "010",
     "email": "danny.ellis@example.com",
     "favoriteColor": "green",
     "birthday": "1992-04-16"
@@ -37,4 +37,4 @@ Content-Type: application/json
 }
 
 ### Get contact by id
-DELETE http://localhost:8080/contacts/66ef7e0981c06cd9b3f082ca
+DELETE http://localhost:8080/contacts/66f86e2640ceb14eebe42081
